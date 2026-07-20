@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1150" font-family="Arial, sans-serif">
+
+  <!-- Title -->
+  <text x="390" y="40" text-anchor="middle" font-size="26" font-weight="bold">
+    ESP32 Compact Board – 2×15 Pin Header
+  </text>
+
+  <!-- Column headers -->
+  <text x="200" y="80" text-anchor="middle" font-size="18" font-weight="bold">
+    Left row (Pins 1–15)
+  </text>
+  <text x="580" y="80" text-anchor="middle" font-size="18" font-weight="bold">
+    Right row (Pins 16–30)
+  </text>
+
+  <!-- Function to draw one pin -->
+  <!-- Left side pins -->
+  <!-- Pin rectangles: x=170, y = 120 + (index * 30) -->
+  <!-- Right side pins: x=560, y = same -->
+
+  <!-- Helper: each block is 30px tall -->
+
+  <!-- PIN 1 / 2 -->
+  <rect x="170" y="120" width="30" height="30" fill="#555" stroke="#000"/>
+  <text x="160" y="140" text-anchor="end" font-size="14">1</text>
+  <text x="210" y="140" font-size="14">GND (0V)</text>
+
+  <rect x="560" y="120" width="30" height="30" fill="#D33" stroke="#000"/>
+  <text x="600" y="140" text-anchor="start" font-size="14">2</text>
+  <text x="540" y="140" text-anchor="end" font-size="14">+3.3V</text>
+
+  <!-- PIN 3 / 4 -->
+  <rect x="170" y="150" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="160" y="170" text-anchor="end" font-size="14">3</text>
+  <text x="210" y="170" font-size="14">in1 (GPIO36)</text>
+
+  <rect x="560" y="150" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="600" y="170" text-anchor="start" font-size="14">4</text>
+  <text x="540" y="170" text-anchor="end" font-size="14">in2 (GPIO39)</text>
+
+  <!-- PIN 5 / 6 -->
+  <rect x="170" y="180" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="160" y="200" text-anchor="end" font-size="14">5</text>
+  <text x="210" y="200" font-size="14">in3 (GPIO34)</text>
+
+  <rect x="560" y="180" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="600" y="200" text-anchor="start" font-size="14">6</text>
+  <text x="540" y="200" text-anchor="end" font-size="14">in4 (GPIO35)</text>
+
+  <!-- PIN 7 / 8 -->
+  <rect x="170" y="210" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="160" y="230" text-anchor="end" font-size="14">7</text>
+  <text x="210" y="230" font-size="14">PWM (GPIO22)</text>
+
+  <rect x="560" y="210" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="600" y="230" text-anchor="start" font-size="14">8</text>
+  <text x="540" y="230" text-anchor="end" font-size="14">ZC (GPIO23)</text>
+
+  <!-- PIN 9 / 10 -->
+  <rect x="170" y="240" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="160" y="260" text-anchor="end" font-size="14">9</text>
+  <text x="210" y="260" font-size="14">RX0 (GPIO3)</text>
+
+  <rect x="560" y="240" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="600" y="260" text-anchor="start" font-size="14">10</text>
+  <text x="540" y="260" text-anchor="end" font-size="14">RX1 (GPIO26)</text>
+
+  <!-- PIN 11 / 12 -->
+  <rect x="170" y="270" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="160" y="290" text-anchor="end" font-size="14">11</text>
+  <text x="210" y="290" font-size="14">TX0 (GPIO1)</text>
+
+  <rect x="560" y="270" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="600" y="290" text-anchor="start" font-size="14">12</text>
+  <text x="540" y="290" text-anchor="end" font-size="14">TX1 (GPIO27)</text>
+
+  <!-- PIN 13 / 14 -->
+  <rect x="170" y="300" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="160" y="320" text-anchor="end" font-size="14">13</text>
+  <text x="210" y="320" font-size="14">out1 (GPIO18)</text>
+
+  <rect x="560" y="300" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="600" y="320" text-anchor="start" font-size="14">14</text>
+  <text x="540" y="320" text-anchor="end" font-size="14">out2 (GPIO19)</text>
+
+  <!-- PIN 15 / 16 -->
+  <rect x="170" y="330" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="160" y="350" text-anchor="end" font-size="14">15</text>
+  <text x="210" y="350" font-size="14">out3 / TX2 (GPIO32)</text>
+
+  <rect x="560" y="330" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="600" y="350" text-anchor="start" font-size="14">16</text>
+  <text x="540" y="350" text-anchor="end" font-size="14">out4 / RX2 (GPIO33)</text>
+
+  <!-- PIN 17 / 18 -->
+  <rect x="170" y="360" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="160" y="380" text-anchor="end" font-size="14">17</text>
+  <text x="210" y="380" font-size="14">SDA (GPIO14)</text>
+
+  <rect x="560" y="360" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="600" y="380" text-anchor="start" font-size="14">18</text>
+  <text x="540" y="380" text-anchor="end" font-size="14">1-Wire (GPIO21)</text>
+
+  <!-- PIN 19 / 20 -->
+  <rect x="170" y="390" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="160" y="410" text-anchor="end" font-size="14">19</text>
+  <text x="210" y="410" font-size="14">SCL (GPIO13)</text>
+
+  <rect x="560" y="390" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="600" y="410" text-anchor="start" font-size="14">20</text>
+  <text x="540" y="410" text-anchor="end" font-size="14">out5 (GPIO25)</text>
+
+  <!-- PIN 21 / 22 -->
+  <rect x="170" y="420" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="160" y="440" text-anchor="end" font-size="14">21</text>
+  <text x="210" y="440" font-size="14">out6 (GPIO17)</text>
+
+  <rect x="560" y="420" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="600" y="440" text-anchor="start" font-size="14">22</text>
+  <text x="540" y="440" text-anchor="end" font-size="14">out7 / Led3 / TXEN (GPIO12)</text>
+
+  <!-- PIN 23 / 24 -->
+  <rect x="170" y="450" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="160" y="470" text-anchor="end" font-size="14">23</text>
+  <text x="210" y="470" font-size="14">CAN_RX (GPIO4)</text>
+
+  <rect x="560" y="450" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="600" y="470" text-anchor="start" font-size="14">24</text>
+  <text x="540" y="470" text-anchor="end" font-size="14">Led1 (GPIO15)</text>
+
+  <!-- PIN 25 / 26 -->
+  <rect x="170" y="480" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="160" y="500" text-anchor="end" font-size="14">25</text>
+  <text x="210" y="500" font-size="14">CAN_TX (GPIO5)</text>
+
+  <rect x="560" y="480" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="600" y="500" text-anchor="start" font-size="14">26</text>
+  <text x="540" y="500" text-anchor="end" font-size="14">Led2 (GPIO16)</text>
+
+  <!-- PIN 27 / 28 -->
+  <rect x="170" y="510" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="160" y="530" text-anchor="end" font-size="14">27</text>
+  <text x="210" y="530" font-size="14">BOOT (GPIO0)</text>
+
+  <rect x="560" y="510" width="30" height="30" fill="#ddd" stroke="#000"/>
+  <text x="600" y="530" text-anchor="start" font-size="14">28</text>
+  <text x="540" y="530" text-anchor="end" font-size="14">RST / EN</text>
+
+  <!-- PIN 29 / 30 -->
+  <rect x="170" y="540" width="30" height="30" fill="#555" stroke="#000"/>
+  <text x="160" y="560" text-anchor="end" font-size="14">29</text>
+  <text x="210" y="560" font-size="14">USB GND</text>
+
+  <rect x="560" y="540" width="30" height="30" fill="#D33" stroke="#000"/>
+  <text x="600" y="560" text-anchor="start" font-size="14">30</text>
+  <text x="540" y="560" text-anchor="end" font-size="14">VIN USB (+5V)</text>
+
+</svg>
