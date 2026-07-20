@@ -37,6 +37,9 @@ JTAG programming
 
 I²C devices connection
 
+## 🖼 Applications images
+![level sensor](images/applications/20260613_170756_resiz.jpg)
+
 ## 🎪 Tools
 no tool available
 ## 📑 Table of Contents
