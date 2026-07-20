@@ -15,7 +15,7 @@
   <text x="95" y="29" text-anchor="middle" class="header">GPIO</text>
 
   <rect x="140" y="10" width="230" height="28" class="headbox"/>
-  <text x="245" y="29" text-anchor="middle" class="header">Fonctions</text>
+  <text x="245" y="29" text-anchor="middle" class="header">Fonction</text>
 
   <!-- Lignes -->
   <!-- Ligne 1 -->
