@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="510">
+
+  <style>
+    .num  { font:600 14px sans-serif; fill:#222; dominant-baseline:middle; text-anchor:middle; }
+    .lbl  { font:12px sans-serif; fill:#333; }
+
+    /* Pastel color categories */
+    .gnd   { fill:#e6e6e6; stroke:#bfbfbf; rx:5; }
+    .vcc   { fill:#ffd6d6; stroke:#ffb3b3; rx:5; }
+    .ain   { fill:#d6e6ff; stroke:#b3ceff; rx:5; }
+    .uart  { fill:#ead6ff; stroke:#d3b3ff; rx:5; }
+    .pwm   { fill:#ffe6cc; stroke:#ffcc99; rx:5; }
+    .out   { fill:#fff0cc; stroke:#ffe099; rx:5; }
+    .i2c   { fill:#d6f2f2; stroke:#b3e0e0; rx:5; }
+    .can   { fill:#d6f2d6; stroke:#b3e0b3; rx:5; }
+    .boot  { fill:#fff9cc; stroke:#fff099; rx:5; }
+  </style>
+
+  <!-- Left column X = 200, Right column X = 233 (3px gap) -->
+
+  <!-- Row 1 -->
+  <rect x="200" y="20" width="30" height="30" class="gnd"/>
+  <text x="215" y="35" class="num">1</text>
+  <text x="190" y="35" text-anchor="end" class="lbl">GND (0V)</text>
+
+  <rect x="233" y="20" width="30" height="30" class="vcc"/>
+  <text x="248" y="35" class="num">2</text>
+  <text x="268" y="35" class="lbl">+3.3V</text>
+
+  <!-- Row 2 -->
+  <rect x="200" y="52" width="30" height="30" class="ain"/>
+  <text x="215" y="67" class="num">3</text>
+  <text x="190" y="67" text-anchor="end" class="lbl">in1 (GPIO36)</text>
+
+  <rect x="233" y="52" width="30" height="30" class="ain"/>
+  <text x="248" y="67" class="num">4</text>
+  <text x="268" y="67" class="lbl">in2 (GPIO39)</text>
+
+  <!-- Row 3 -->
+  <rect x="200" y="84" width="30" height="30" class="ain"/>
+  <text x="215" y="99" class="num">5</text>
+  <text x="190" y="99" text-anchor="end" class="lbl">in3 (GPIO34)</text>
+
+  <rect x="233" y="84" width="30" height="30" class="ain"/>
+  <text x="248" y="99" class="num">6</text>
+  <text x="268" y="99" class="lbl">in4 (GPIO35)</text>
+
+  <!-- Row 4 -->
+  <rect x="200" y="116" width="30" height="30" class="pwm"/>
+  <text x="215" y="131" class="num">7</text>
+  <text x="190" y="131" text-anchor="end" class="lbl">PWM (GPIO22)</text>
+
+  <rect x="233" y="116" width="30" height="30" class="pwm"/>
+  <text x="248" y="131" class="num">8</text>
+  <text x="268" y="131" class="lbl">ZC (GPIO23)</text>
+
+  <!-- Row 5 -->
+  <rect x="200" y="148" width="30" height="30" class="uart"/>
+  <text x="215" y="163" class="num">9</text>
+  <text x="190" y="163" text-anchor="end" class="lbl">RX0 (GPIO3)</text>
+
+  <rect x="233" y="148" width="30" height="30" class="uart"/>
+  <text x="248" y="163" class="num">10</text>
+  <text x="268" y="163" class="lbl">RX1 (GPIO26)</text>
+
+  <!-- Row 6 -->
+  <rect x="200" y="180" width="30" height="30" class="uart"/>
+  <text x="215" y="195" class="num">11</text>
+  <text x="190" y="195" text-anchor="end" class="lbl">TX0 (GPIO1)</text>
+
+  <rect x="233" y="180" width="30" height="30" class="uart"/>
+  <text x="248" y="195" class="num">12</text>
+  <text x="268" y="195" class="lbl">TX1 (GPIO27)</text>
+
+  <!-- Row 7 -->
+  <rect x="200" y="212" width="30" height="30" class="out"/>
+  <text x="215" y="227" class="num">13</text>
+  <text x="190" y="227" text-anchor="end" class="lbl">out1 (GPIO18)</text>
+
+  <rect x="233" y="212" width="30" height="30" class="out"/>
+  <text x="248" y="227" class="num">14</text>
+  <text x="268" y="227" class="lbl">out2 (GPIO19)</text>
+
+  <!-- Row 8 -->
+  <rect x="200" y="244" width="30" height="30" class="out"/>
+  <text x="215" y="259" class="num">15</text>
+  <text x="190" y="259" text-anchor="end" class="lbl">out3 / TX2 (GPIO32)</text>
+
+  <rect x="233" y="244" width="30" height="30" class="out"/>
+  <text x="248" y="259" class="num">16</text>
+  <text x="268" y="259" class="lbl">out4 / RX2 (GPIO33)</text>
+
+  <!-- Row 9 -->
+  <rect x="200" y="276" width="30" height="30" class="i2c"/>
+  <text x="215" y="291" class="num">17</text>
+  <text x="190" y="291" text-anchor="end" class="lbl">SDA (GPIO14)</text>
+
+  <rect x="233" y="276" width="30" height="30" class="i2c"/>
+  <text x="248" y="291" class="num">18</text>
+  <text x="268" y="291" class="lbl">1-Wire (GPIO21)</text>
+
+  <!-- Row 10 -->
+  <rect x="200" y="308" width="30" height="30" class="i2c"/>
+  <text x="215" y="323" class="num">19</text>
+  <text x="190" y="323" text-anchor="end" class="lbl">SCL (GPIO13)</text>
+
+  <rect x="233" y="308" width="30" height="30" class="i2c"/>
+  <text x="248" y="323" class="num">20</text>
+  <text x="268" y="323" class="lbl">out5 (GPIO25)</text>
+
+  <!-- Row 11 -->
+  <rect x="200" y="340" width="30" height="30" class="out"/>
+  <text x="215" y="355" class="num">21</text>
+  <text x="190" y="355" text-anchor="end" class="lbl">out6 (GPIO17)</text>
+
+  <rect x="233" y="340" width="30" height="30" class="out"/>
+  <text x="248" y="355" class="num">22</text>
+  <text x="268" y="355" class="lbl">out7 / Led3 / TXEN (GPIO12)</text>
+
+  <!-- Row 12 -->
+  <rect x="200" y="372" width="30" height="30" class="can"/>
+  <text x="215" y="387" class="num">23</text>
+  <text x="190" y="387" text-anchor="end" class="lbl">CAN_RX (GPIO4)</text>
+
+  <rect x="233" y="372" width="30" height="30" class="can"/>
+  <text x="248" y="387" class="num">24</text>
+  <text x="268" y="387" class="lbl">Led1 (GPIO15)</text>
+
+  <!-- Row 13 -->
+  <rect x="200" y="404" width="30" height="30" class="can"/>
+  <text x="215" y="419" class="num">25</text>
+  <text x="190" y="419" text-anchor="end" class="lbl">CAN_TX (GPIO5)</text>
+
+  <rect x="233" y="404" width="30" height="30" class="can"/>
+  <text x="248" y="419" class="num">26</text>
+  <text x="268" y="419" class="lbl">Led2 (GPIO16)</text>
+
+  <!-- Row 14 -->
+  <rect x="200" y="436" width="30" height="30" class="boot"/>
+  <text x="215" y="451" class="num">27</text>
+  <text x="190" y="451" text-anchor="end" class="lbl">BOOT (GPIO0)</text>
+
+  <rect x="233" y="436" width="30" height="30" class="boot"/>
+  <text x="248" y="451" class="num">28</text>
+  <text x="268" y="451" class="lbl">RST / EN</text>
+
+  <!-- Row 15 -->
+  <rect x="200" y="468" width="30" height="30" class="gnd"/>
+  <text x="215" y="483" class="num">29</text>
+  <text x="190" y="483" text-anchor="end" class="lbl">USB GND</text>
+
+  <rect x="233" y="468" width="30" height="30" class="vcc"/>
+  <text x="248" y="483" class="num">30</text>
+  <text x="268" y="483" class="lbl">VIN USB (+5V)</text>
+
+</svg>
