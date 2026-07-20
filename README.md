@@ -38,6 +38,7 @@ JTAG programming
 I²C devices connection
 
 ## 🖼 Applications images
+a water tank level sensor board communicating on MQTT with Homeassistant
 ![level sensor](images/applications/20260613_170756_resiz.jpg)
 
 ## 🎪 Tools
