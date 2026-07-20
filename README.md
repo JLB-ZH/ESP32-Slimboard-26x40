@@ -28,7 +28,7 @@ The board features a 2×15 pin male connector with 2.0 mm pitch, allowing use on
 - 1× green LED on GPIO2  
 - one 10x0.5mm ZIF connector 
   - for Jtag or Uart programming (ESPPROG2 + adapter recommended)
-  - for I²C devices interfacing
+  - for I²C or SPI expansion
 
 ## 🖼 Applications images
 a water tank level sensor board communicating on MQTT with <img src="images/others/homeassistant.svg" width="30" /> Homeassistant
