@@ -41,6 +41,9 @@ I²C devices connection
 a water tank level sensor board communicating on MQTT with Homeassistant
 ![level sensor](images/applications/20260613_170756_resiz.jpg)
 
+<img src="images/applications/20260613_170756_resiz.jpg" width="300" />
+
+
 ## 🎪 Tools
 no tool available
 ## 📑 Table of Contents
