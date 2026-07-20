@@ -31,7 +31,7 @@ The board features a 2×15 pin male connector with 2.0 mm pitch, allowing use on
   - for I²C or SPI expansion
 ## 🔌 Connectivity
 ### main connector
-![Main connector](images/others/pinout-2x15.svg)
+![Main connector](images/others/pinout-2x15-color.svg)
 
 ### Zif connector
 ![Zif connector](images/others/pinout-zif10-5.svg)
