@@ -30,7 +30,7 @@ The board features a 2×15 pin male connector with 2.0 mm pitch, allowing use on
   - for Jtag or Uart programming (ESPPROG2 + adapter recommended)
   - for I²C or SPI expansion
 ## 📐 Connectivity
-![Zif connector](images/others/pinout zif10 4.svg)
+![Zif connector](images/others/pinout zif10 5.svg)
 
 ## 🖼 Applications images
 a water tank level sensor board communicating on MQTT with <img src="images/others/homeassistant.svg" width="30" /> Homeassistant
