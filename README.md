@@ -2,6 +2,8 @@
 Compact ESP32‑WROOM‑32 module (26×40 mm) featuring a 2×15 pin connector for vertical or horizontal mounting, and a 10‑pin ZIF for UART/JTAG programming and I²C interface.
 
 ## 🧩 Processor Board
+<img width="471" height="387" alt="image" src="https://github.com/user-attachments/assets/4399ea76-0588-4701-ae5c-468f98522b0d" />
+
 The processor board is equipped with an ESP32‑WROOM‑32UE module (the E model can be used if no external antenna is needed).
 It includes 16 MB of flash memory.
 
