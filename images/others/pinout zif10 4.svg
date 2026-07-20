@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360">
+  <style>
+    .header { font: bold 13px sans-serif; fill: #fff; }
+    .cell { font: 12px sans-serif; fill: #333; }
+    .pin { font: bold 12px sans-serif; fill: #333; }
+    .box { stroke: #444; fill: #fafafa; rx: 6; }
+    .headbox { stroke: #444; fill: #4a6fa5; rx: 6; }
+  </style>
+
+  <!-- En-têtes -->
+  <rect x="10" y="10" width="40" height="28" class="headbox"/>
+  <text x="30" y="29" text-anchor="middle" class="header">Pin</text>
+
+  <rect x="50" y="10" width="90" height="28" class="headbox"/>
+  <text x="95" y="29" text-anchor="middle" class="header">GPIO</text>
+
+  <rect x="140" y="10" width="330" height="28" class="headbox"/>
+  <text x="305" y="29" text-anchor="middle" class="header">Fonctions</text>
+
+  <!-- Ligne generator -->
+  <script type="text/ecmascript"><![CDATA[
+    const rows = [
+      ["1","VDD","+3,3V"],
+      ["2","GPIO13","I²C CLK / JTAG TCK / HSPI D"],
+      ["3","GND","GND"],
+      ["4","GPIO14","I²C DATA / JTAG TMS / HSPI CLK"],
+      ["5","GPIO15","JTAG TDO / HSPI CS0"],
+      ["6","GPIO12","JTAG TDI / HSPI Q"],
+      ["7","EN","Reset / Enable"],
+      ["8","GPIO0","Boot mode (IO0)"],
+      ["9","GPIO3","UART0 RX"],
+      ["10","GPIO1","UART0 TX"]
+    ];
+
+    let y = 40;
+    rows.forEach(r => {
+      const [pin, gpio, sig] = r;
+
+      document.write(`<rect x="10" y="${y}" width="40" height="26" class="box"/>`);
+      document.write(`<text x="30" y="${y+18}" text-anchor="middle" class="pin">${pin}</text>`);
+
+      document.write(`<rect x="50" y="${y}" width="90" height="26" class="box"/>`);
+      document.write(`<text x="95" y="${y+18}" text-anchor="middle" class="cell">${gpio}</text>`);
+
+      document.write(`<rect x="140" y="${y}" width="330" height="26" class="box"/>`);
+      document.write(`<text x="305" y="${y+18}" text-anchor="middle" class="cell">${sig}</text>`);
+
+      y += 26;
+    });
+  ]]></script>
+</svg>
