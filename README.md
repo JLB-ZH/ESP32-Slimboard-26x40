@@ -13,29 +13,22 @@ An external adapter can be used for initial programming; OTA updates can be used
 The board features a 2×15 pin male connector with 2.0 mm pitch, allowing use on prototyping platforms or production boards.
 
 ## 📐 Specifications
-ESP32‑WROOM‑32‑E (or UE)
-
-Power supply: 3.3 V external
-
-One 2×15×2.0 mm male connector
-
-Straight version for horizontal mounting
-
-Right‑angle version for vertical mounting
-
-Reset button
-
-1× red LED on GPIO0
-
-1× green LED on GPIO2
-
-1× 10‑pin ZIF connector for:
-
-UART programming
-
-JTAG programming
-
-I²C devices connection
+- Small size: 26x40mm
+- Soc module on-board: ESP32‑WROOM‑32‑E (or UE)
+  - 240MHz
+  - 16MB Flash
+  - 520KB Sram
+  - 448 KB Rom
+- Power supply: 3.3 V external  
+- 1× 2×15×2.0 mm male connector
+  - Straight version for horizontal mounting
+  - Right‑angle version for vertical mounting  
+- Reset button    
+- 1× red LED on GPIO0  
+- 1× green LED on GPIO2  
+- one 10x0.5mm ZIF connector 
+  - for Jtag or Uart programming (ESPPROG2 + adapter recommended)
+  - for I²C devices interfacing
 
 ## 🖼 Applications images
 a water tank level sensor board communicating on MQTT with <img src="images/others/homeassistant.svg" width="30" /> Homeassistant
