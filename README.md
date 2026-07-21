@@ -57,20 +57,9 @@ Pins have been assigned to application-spécific signals, but all GPIO can be re
   </tr>
 </table>
 
-
-
-
-
-
-
-
-
-
-
-
-
 ## 🎪 Tools
-no tool available for the moment
+[programming module](https://soldered.com/products/connect-programmer) <img width="100" height="50" alt="image" src="https://github.com/user-attachments/assets/65be5cc9-0e9b-46aa-814a-87d661683d37" />
+
 ## 📑 Table of Contents
 - [Processor Board](#processor-board)
 - [documents](docs/)
