@@ -4,8 +4,17 @@
     <td><div align="center">Tank level Sensor interface<br></div><img src="images/applications/20260613_170756_resiz.jpg" width="220"></td>
     <td valign="top" align="center">
       <div>
-        <div>Interface Linky</div>
-        <div><img src="images/applications/20260613_170756_resiz.jpg" alt="Linky interface" width="220"></div>
+        <div>Tank level Sensor interface</div><br>
+        <div><img src="images/applications/20260613_170756_resiz.jpg" alt="Tank level Sensor interfacee" width="220"></div>
+      </div>
+    </td>
+  </tr>
+    <tr><td><div align="center" valign="top">Linky interface<br></div><img src="images/applications/linky_interface.jpg" width="220"></td>
+    <td><div align="center">Tank level Sensor interface<br></div><img src="images/applications/20260613_170756_resiz.jpg" width="220"></td>
+    <td valign="top" align="center">
+      <div>
+        <div>Tank level Sensor interface</div><br>
+        <div><img src="images/applications/20260613_170756_resiz.jpg" alt="Tank level Sensor interfacee" width="220"></div>
       </div>
     </td>
   </tr>
@@ -49,7 +58,7 @@ Pins have been assigned to application-spécific signals, but all GPIO can be re
 ![Main connector](images/others/pinout-2x15-color.svg)
 ### Zif connector
 ![Zif connector](images/others/pinout-zif10-5.svg)
-## 🖼 Applications
+## 🖼 Application examples
 <table>
   <tr>
     <td>Linky interface</td>
