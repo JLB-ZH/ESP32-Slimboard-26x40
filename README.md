@@ -32,17 +32,13 @@ The board features a 2×15 pin male connector with 2.0 mm pitch, allowing use on
 ## 🔌 Connectivity
 ### main connector
 ![Main connector](images/others/pinout-2x15-color.svg)
-
 ### Zif connector
 ![Zif connector](images/others/pinout-zif10-5.svg)
-
 ## 🖼 Applications images
-a water tank level sensor board communicating on MQTT with <img src="images/others/homeassistant.svg" width="30" /> Homeassistant
-![level sensor](images/applications/20260613_170756_resiz.jpg)
-
+water tank level sensor board communicating on MQTT with <img src="images/others/homeassistant.svg" width="30" /> Homeassistant  
 <img src="images/applications/20260613_170756_resiz.jpg" width="300" />
-
-
+Linky interface for 1 module din rail enclosure
+<img src="images/applications/20260613_170756_resiz.jpg" width="300" />
 ## 🎪 Tools
 no tool available
 ## 📑 Table of Contents
