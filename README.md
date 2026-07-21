@@ -14,6 +14,7 @@ The board features a 2×15 pin male connector with 2.0 mm pitch, allowing use on
 
 ## 📐 Specifications
 - Small size: 26x40mm
+- 2× holes for 2,5mm screews
 - Soc module on-board: ESP32‑WROOM‑32‑E (or UE)
   - 240MHz
   - 16MB Flash
@@ -24,21 +25,23 @@ The board features a 2×15 pin male connector with 2.0 mm pitch, allowing use on
   - Straight version for horizontal mounting
   - Right‑angle version for vertical mounting  
 - Reset button    
-- 1× red LED on GPIO0  
-- 1× green LED on GPIO2  
-- one 10x0.5mm ZIF connector 
+- 2× indicators
+  - red LED on GPIO0  
+  - green LED on GPIO2  
+- 1× 1x10x0.5mm ZIF connector 
   - for Jtag or Uart programming (ESPPROG2 + adapter recommended)
   - for I²C or SPI expansion
 ## 🔌 Connectivity
 ### main connector
+Pins have been assigned to application-spécific signals, but all GPIO can be reassigned by software.
 ![Main connector](images/others/pinout-2x15-color.svg)
 ### Zif connector
 ![Zif connector](images/others/pinout-zif10-5.svg)
-## 🖼 Applications images
+## 🖼 Applications
 Water tank level sensor board communicating on MQTT with <img src="images/others/homeassistant.svg" width="30" /> Homeassistant  
 <img src="images/applications/20260613_170756_resiz.jpg" width="300" />  
 Linky interface for 1 module din rail enclosure  
-<img src="images/applications/Linky_interface.jpg" width="300" />
+<img src="images/applications/linky_interface.jpg" width="300" />
 ## 🎪 Tools
 no tool available
 ## 📑 Table of Contents
