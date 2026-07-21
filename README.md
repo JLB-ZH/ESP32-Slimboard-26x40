@@ -11,7 +11,7 @@ An external adapter can be used for initial programming; OTA updates can be used
 
 The board features a 2×15 pin male connector with 2.0 mm pitch, allowing use on prototyping platforms or production boards.
 
-It has been developed with Eagle Cad version 4.16, but Eagle 6 compatible files (XML format) are provided here, and can be easily imported into KICAD.
+It has been developed with Eagle Cad version 4.16, but Eagle 6 compatible files (XML format) are provided [here](hardware/), and can be easily imported into KICAD.
 ## 📐 Specifications
 - Small size: 26x40mm
 - 2× holes for 2,5mm screews
