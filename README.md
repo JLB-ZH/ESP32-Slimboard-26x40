@@ -41,7 +41,7 @@ Pins have been assigned to application-spécific signals, but all GPIO can be re
 <table>
   <tr>
     <td><strong>Linky interface</strong></td>
-    <td><strong>Sensor interface</strong></td>
+    <td><strong>Tank level Sensor interface</strong></td>
   </tr>
   <tr>
     <td><img src="images/applications/linky_interface.jpg" width="220"></td>
