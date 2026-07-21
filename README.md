@@ -1,4 +1,16 @@
-# ESP32-Slimboard-26x40
+# ESP32-Slimboard-26x40  
+<table>
+<tr><td><div align="center" valign="top">Linky interface<br></div><img src="images/applications/linky_interface.jpg" width="220"></td>
+    <td><div align="center">Tank level Sensor interface<br></div><img src="images/applications/20260613_170756_resiz.jpg" width="220"></td>
+    <td valign="top" align="center">
+      <div>
+        <div>Interface Linky</div>
+        <div><img src="images/applications/20260613_170756_resiz.jpg" alt="Linky interface" width="220"></div>
+      </div>
+    </td>
+  </tr>
+</table>
+
 Compact ESP32‑WROOM‑32 module (26×40 mm) featuring a 2×15 pin connector for vertical or horizontal mounting, and a 10‑pin ZIF for UART/JTAG programming and I²C/SPI interface.
 
 ## 🧩 The Board
@@ -40,7 +52,7 @@ Pins have been assigned to application-spécific signals, but all GPIO can be re
 ## 🖼 Applications
 <table>
   <tr>
-    <td><strong>Linky interface</strong></td>
+    <td>Linky interface</td>
     <td><strong>Tank level Sensor interface</strong></td>
   </tr>
   <tr>
