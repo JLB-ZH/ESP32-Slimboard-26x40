@@ -38,10 +38,37 @@ Pins have been assigned to application-spécific signals, but all GPIO can be re
 ### Zif connector
 ![Zif connector](images/others/pinout-zif10-5.svg)
 ## 🖼 Applications
-Water tank level sensor board communicating on MQTT with <img src="images/others/homeassistant.svg" width="30" /> Homeassistant  
-<img src="images/applications/20260613_170756_resiz.jpg" width="300" />  
-Linky interface for 1 module din rail enclosure  
-<img src="images/applications/linky_interface.jpg" width="300" />
+<table>
+  <tr>
+    <td><strong>Linky interface</strong></td>
+    <td><strong>Sensor interface</strong></td>
+  </tr>
+  <tr>
+    <td><img src="images/applications/linky_interface.jpg" width="220"></td>
+    <td><img src="images/applications/20260613_170756_resiz.jpg" width="220"></td>
+  </tr>
+    <tr>
+    <td><strong>Prototype baseboard</strong></td>
+    <td><strong></strong></td>
+  </tr>
+  <tr>
+    <td><img src="images/applications/prototype_baseboard.jpg" width="220"></td>
+    <td></td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 🎪 Tools
 no tool available for the moment
 ## 📑 Table of Contents
