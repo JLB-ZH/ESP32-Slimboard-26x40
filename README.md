@@ -52,9 +52,9 @@ Pins have been assigned to application-spécific signals, but all GPIO can be re
 </table>
 
 ## 🎪 Tools
-|[Uart programming module](https://soldered.com/products/connect-programmer)|[ESPPROG-2 tool](https://docs.espressif.com/projects/esp-dev-kits/en/latest/other/esp-prog-2/user_guide.html)|ZIF interface card|
+|[Uart programming module](https://soldered.com/products/connect-programmer)|[ESPPROG-2 tool](https://docs.espressif.com/projects/esp-dev-kits/en/latest/other/esp-prog-2/user_guide.html)|ZIF programmer|
 |:----------------:|:---------------:|:-------------:|
-|<img width="150" alt="image" src="https://github.com/user-attachments/assets/65be5cc9-0e9b-46aa-814a-87d661683d37" />|<img width="200" alt="image" src="https://github.com/user-attachments/assets/f6ce9830-2264-4a18-98e6-faf8563dba3e" />|<img width="200" alt="image" src="https://github.com/user-attachments/assets/31044f7c-8856-4712-a3b1-6f42220a28e9" />|
+|<img width="150" alt="image" src="https://github.com/user-attachments/assets/65be5cc9-0e9b-46aa-814a-87d661683d37" />|<img width="200" alt="image" src="https://github.com/user-attachments/assets/f6ce9830-2264-4a18-98e6-faf8563dba3e" />|<img width="200" alt="image" src="images/applications/ZIF_programmer.jpg" width="220" />|
 
 
 ## 📑 Table of Contents
