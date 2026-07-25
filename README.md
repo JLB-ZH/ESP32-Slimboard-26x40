@@ -21,6 +21,7 @@ It has been developed with Eagle Cad version 4.16, but Eagle 6 compatible files 
   - 448 KB Rom
   - CAN 2.0
   - Wifi, Bluetooth
+  - many GPIOs
 - Externally provided 3.3V power supply
 - 1× 2×15×2.0 mm male connector
   - Straight version for horizontal mounting
