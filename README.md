@@ -39,7 +39,7 @@ Pins have been assigned to application-spécific signals, but all GPIO can be re
 ## 🖼 Application examples
 <table>
   <tr>
-    <td>Linky interface</td>
+    <td><strong>Linky interface</strong></td>
     <td><strong>Tank level Sensor interface</strong></td>
     <td><strong>Prototyping baseboard</strong></td>
   </tr>
