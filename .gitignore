@@ -17,10 +17,7 @@ jlcpcb/
 # comment the following line if you want to have your project file included.
 eagle.epf
 DESCRIPTION
-
-# Autorouter files
-*.pro
-*.job
+*.erc
 
 # gerber files
 *.gb?
