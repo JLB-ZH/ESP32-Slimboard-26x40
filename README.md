@@ -4,7 +4,7 @@ Compact ESP32‑WROOM‑32 module (26×40 mm) featuring a 2×15 pin connector fo
 ## 🧩 The Board
 <img width="471" height="387" alt="image" src="https://github.com/user-attachments/assets/4399ea76-0588-4701-ae5c-468f98522b0d" />
 
-The processor board is made arround the ESPRESSIF ESP32‑WROOM‑32UE with 16 MB of flash (or 32E if no external antenna is needed).
+The processor board is made arround the ESPRESSIF ESP32‑WROOM‑32UE with 16 MB of flash (or 32E if no external antenna needed).
 
 USB interface and onboard 3.3V regulator are not provided, an external adapter  [Tools](#-tools) can be used for initial programming. OTA updates can be used afterwards.
 
@@ -61,6 +61,6 @@ Pins have been assigned to application-spécific signals, but all GPIO can be re
 - [documents](documents/)
 
 
-## Licenses
+## 🛡 Licenses
 - [Software](licenses/software/LICENSE-APACHE) : Apache-2.0
 - [Hardware](licenses/hardware/LICENSE-CERN-OHL-S) : CERN-OHL-S v2
