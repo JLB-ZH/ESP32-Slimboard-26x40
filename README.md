@@ -4,10 +4,9 @@ Compact ESP32‑WROOM‑32 module (26×40 mm) featuring a 2×15 pin connector fo
 ## 🧩 The Board
 <img width="471" height="387" alt="image" src="https://github.com/user-attachments/assets/4399ea76-0588-4701-ae5c-468f98522b0d" />
 
-The processor board is equipped with an ESPRESSIF ESP32‑WROOM‑32UE module with 16 MB of flash (the E model can be used if no external antenna is needed).
+The processor board is made arround the ESPRESSIF ESP32‑WROOM‑32UE with 16 MB of flash (or 32E if no external antenna is needed).
 
-There is no USB interface nor 3.3V regulator on board, since these features are only needed a few times during the product life.
-An external adapter can be used for initial programming; OTA updates can be used afterwards.
+USB interface and onboard 3.3V regulator are not provided, an external adapter  [Tools](#-tools) can be used for initial programming. OTA updates can be used afterwards.
 
 The board features a 2×15 pin male connector with 2.0 mm pitch, allowing use on prototyping platforms or production boards.
 
@@ -58,7 +57,7 @@ Pins have been assigned to application-spécific signals, but all GPIO can be re
 
 
 ## 📑 Table of Contents
-- [Processor Board](#processor-board)
+- [Processor Board](#-the-board)
 - [documents](docs/)
 
 
