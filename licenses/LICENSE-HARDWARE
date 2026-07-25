@@ -1,0 +1,75 @@
+CERN Open Hardware Licence Version 2 - Strong
+
+Preamble
+
+CERN has developed this licence to promote collaboration among hardware
+designers and to provide a legal framework that supports the freedom to
+use, study, modify, share, and distribute hardware designs and products
+based on those designs. The CERN-OHL-S is a strong copyleft licence
+intended for hardware documentation.
+
+1 Definitions
+
+“Documentation” means schematic diagrams, designs, circuit diagrams,
+layout data, mechanical drawings, flow charts, descriptive text, and
+other explanatory material that describes the hardware and its
+interfaces.
+
+“Product” means any device manufactured using the Documentation or
+modified Documentation.
+
+“License” means this CERN-OHL-S.
+
+“Licensee” means any person exercising rights under this License.
+
+“Modified Documentation” means Documentation where changes have been
+made to the original Documentation.
+
+“Source” means the preferred form of Documentation for making
+modifications.
+
+2 Grant of License
+
+CERN grants You a worldwide, royalty-free, non-exclusive licence:
+
+a) to reproduce the Documentation;
+
+b) to modify the Documentation and create Modified Documentation;
+
+c) to manufacture or distribute Products based on the Documentation or
+Modified Documentation;
+
+d) to distribute the Documentation or Modified Documentation under the
+terms of this License.
+
+3 Copyleft
+
+You must distribute any Modified Documentation under the terms of this
+License. You must make the Modified Documentation available in Source
+form.
+
+4 Patent License
+
+CERN and any contributor grant You a perpetual, worldwide, non-exclusive,
+no-charge, royalty-free, irrevocable patent licence to make, use, sell,
+offer for sale, import, and otherwise transfer the Documentation, Modified
+Documentation, and Products.
+
+If You initiate patent litigation alleging that the Documentation or a
+Contribution infringes a patent, Your rights under this License terminate
+immediately.
+
+5 Notices
+
+You must retain all copyright and licence notices in the Documentation
+and Modified Documentation.
+
+6 Warranty and Liability
+
+The Documentation is provided “as is”, without warranty of any kind.
+
+CERN shall not be liable for any damages arising from the use of the
+Documentation or Products.
+
+Full licence text:
+https://ohwr.org/cern_ohl_s_v2.txt
