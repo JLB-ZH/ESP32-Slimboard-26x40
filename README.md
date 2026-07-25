@@ -61,3 +61,6 @@ Pins have been assigned to application-spécific signals, but all GPIO can be re
 - [documents](documents/)
 
 
+## Licenses
+- [Software](licenses/software/LICENSE-APACHE) : Apache-2.0
+- [Hardware](licenses/hardware/LICENSE-CERN-OHL-S) : CERN-OHL-S v2
