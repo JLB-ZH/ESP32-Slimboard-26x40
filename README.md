@@ -2,7 +2,7 @@
 Compact ESP32‑WROOM‑32 module (26×40 mm) featuring a 2×15 pin connector for vertical or horizontal mounting, and a 10‑pin ZIF for UART/JTAG programming and I²C/SPI interface.
 
 ## 🧩 The Board
-<img width="471" height="387" alt="image" src="https://github.com/user-attachments/assets/4399ea76-0588-4701-ae5c-468f98522b0d" />
+<img width="471" height="387" alt="image" src="images/mainboard/esp32-ts26c01v2-1024.jpg" />
 
 The processor board is made arround the ESPRESSIF ESP32‑WROOM‑32UE with 16 MB of flash (or 32E if no external antenna needed).
 
