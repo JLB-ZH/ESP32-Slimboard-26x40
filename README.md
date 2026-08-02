@@ -61,7 +61,8 @@ Pins have been assigned to application-spécific signals, but all GPIO can be re
 
 ## 📑 Table of Contents
 - [Processor Board](#-the-board)
-- [documents](documents/)
+- [Software examples](software/arduino/)
+- [Documents](documents/)
 
 
 ## 🛡 Licenses
