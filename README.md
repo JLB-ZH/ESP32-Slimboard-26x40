@@ -53,6 +53,9 @@ Pins have been assigned to application-spécific signals, but all GPIO can be re
   </tr>
 </table>
 
+## 🛠 Hardware design
+Design files are provided [here](hardware/) in Eagle 6 format (xml files) that can easily be imported in KICAD.
+
 ## 🛠 Tools
 |[Uart programming module](https://soldered.com/products/connect-programmer)|[ESPPROG-2 tool](https://docs.espressif.com/projects/esp-dev-kits/en/latest/other/esp-prog-2/user_guide.html)|ZIF programmer|
 |:----------------:|:---------------:|:-------------:|
@@ -62,6 +65,7 @@ Pins have been assigned to application-spécific signals, but all GPIO can be re
 ## 📑 Table of Contents
 - [Processor Board](#-the-board)
 - [Software examples](software/arduino/)
+- [Hardware](hardware/)
 - [Documents](documents/)
 
 
