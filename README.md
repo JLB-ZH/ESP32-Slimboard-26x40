@@ -11,7 +11,7 @@ USB interface and onboard 3.3V regulator are not provided, an external adapter  
 The board features a 2×15 pin male connector with 2.0 mm pitch, allowing use on prototyping platforms or production boards.
 
 It has been developed with Eagle Cad version 4.16, but Eagle 6 compatible files (XML format) are provided [here](hardware/), and can be easily imported into KICAD.
-## 📐 Specifications
+## 📜 Specifications
 - Small size: 26x40mm
 - 2× holes for 2,5mm screews
 - Soc module on-board: ESP32‑WROOM‑32‑E (or UE)
@@ -53,13 +53,13 @@ Pins have been assigned to application-spécific signals, but all GPIO can be re
   </tr>
 </table>
 
-## 🛠 Hardware design
+## 📐 Hardware design
 Design files are provided [here](hardware/) in Eagle 6 format (xml files) that can easily be imported in KICAD.
 
 ## 🛠 Tools
-|[Uart programming module](https://soldered.com/products/connect-programmer)|[ESPPROG-2 tool](https://docs.espressif.com/projects/esp-dev-kits/en/latest/other/esp-prog-2/user_guide.html)|ZIF programmer|
-|:----------------:|:---------------:|:-------------:|
-|<img width="150" alt="image" src="https://github.com/user-attachments/assets/65be5cc9-0e9b-46aa-814a-87d661683d37" />|<img width="200" alt="image" src="https://github.com/user-attachments/assets/f6ce9830-2264-4a18-98e6-faf8563dba3e" />|<img width="200" alt="image" src="images/applications/ZIF_programmer.jpg" width="220" />|
+|[Uart programming module](https://soldered.com/products/connect-programmer)|[ESPPROG-2 tool](https://docs.espressif.com/projects/esp-dev-kits/en/latest/other/esp-prog-2/user_guide.html)|ZIF programmer|Prototyping baseboard|
+|:----------------:|:---------------:|:-------------:|:-------------:|
+|<img width="150" alt="image" src="https://github.com/user-attachments/assets/65be5cc9-0e9b-46aa-814a-87d661683d37" />|<img width="200" alt="image" src="https://github.com/user-attachments/assets/f6ce9830-2264-4a18-98e6-faf8563dba3e" />|<img width="200" alt="image" src="images/applications/ZIF_programmer.jpg" width="220" />|<img width="200" alt="image" src="images/applications/ZIF_programmer.jpg" width="220" />|
 
 
 ## 📑 Table of Contents
