@@ -59,7 +59,7 @@ Design files are provided [here](hardware/) in Eagle 6 format (xml files) that c
 ## 🛠 Tools
 |[Uart programming module](https://soldered.com/products/connect-programmer)|[ESPPROG-2 tool](https://docs.espressif.com/projects/esp-dev-kits/en/latest/other/esp-prog-2/user_guide.html)|ZIF programmer|Programming on socket|
 |:----------------:|:---------------:|:-------------:|:-------------:|
-|<img width="150" alt="image" src="https://github.com/user-attachments/assets/65be5cc9-0e9b-46aa-814a-87d661683d37" />|<img width="200" alt="image" src="https://github.com/user-attachments/assets/f6ce9830-2264-4a18-98e6-faf8563dba3e" />|<img width="200" alt="image" src="images/applications/ZIF_programmer.jpg" width="220" />|<img width="200" alt="image" src="images/applications/programming-with-soldered.jpg" width="220" />|
+|<img width="150" alt="image" src="https://github.com/user-attachments/assets/65be5cc9-0e9b-46aa-814a-87d661683d37" />|<img width="200" alt="image" src="https://github.com/user-attachments/assets/f6ce9830-2264-4a18-98e6-faf8563dba3e" />|<img width="200" alt="image" src="images/applications/ZIF_programmer.jpg" width="220" />|<img width="200" alt="image" src="images/applications/programming-with-soldered.gif" width="220" />|
 
 
 ## 📑 Table of Contents
