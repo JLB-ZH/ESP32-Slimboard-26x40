@@ -39,7 +39,7 @@ Pins have been assigned to application-spécific signals, but all GPIO can be re
 ![Main connector](images/others/pinout-2x15-color.svg)
 ### Zif connector
 ![Zif connector](images/others/pinout-zif10-5.svg)
-## 🖼 Application examples
+## 🖼 Application examples and projects
 <table>
   <tr>
     <td><strong>Linky interface</strong></td>
