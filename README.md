@@ -11,6 +11,9 @@ USB interface and onboard 3.3V regulator are not provided, an external adapter  
 The board features a 2×15 pin male connector with 2.0 mm pitch, allowing use on prototyping platforms or production boards.
 
 It has been developed with Eagle Cad version 4.16, but Eagle 6 compatible files (XML format) are provided [here](hardware/), and can be easily imported into KICAD.
+
+The mechanical and pinout specification can apply to many different microcontroller or SOC, just change the schematic and use the library frame found in JLB_processor.lbr
+
 ## 📜 Specifications
 - Small size: 26x40mm
 - 2× holes for 2,5mm screews
