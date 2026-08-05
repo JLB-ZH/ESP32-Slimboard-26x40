@@ -1,5 +1,5 @@
 # ESP32-Slimboard-26x40  
-Compact ESP32‑WROOM‑32 module (26×40 mm) featuring a 2×15 pin connector for vertical or horizontal mounting, and a 10‑pin ZIF for UART/JTAG programming and I²C/SPI interface.
+Compact ESP32‑WROOM‑32 module (26×40 mm) for vertical or horizontal mounting, with a 10‑pin ZIF for programming and I²C/SPI interface.
 
 ## 🧩 The Board
 <img width="471" height="387" alt="image" src="images/mainboard/esp32-ts26c01v2-1024.jpg" />
