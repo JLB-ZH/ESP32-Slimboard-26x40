@@ -38,7 +38,7 @@ The mechanical and pinout specifications can apply to many different microcontro
   - for I²C or SPI expansion
 ## 🔌 Connectivity
 ### main connector
-Pins have been assigned to application-spécific signals, but all GPIO can be reassigned by software.
+Pins in this table have been assigned to application-specific signals, but all GPIO can be reassigned to other functions by software if necessary.
 ![Main connector](images/others/pinout-2x15-color.svg)
 ### Zif connector
 ![Zif connector](images/others/pinout-zif10-5.svg)
