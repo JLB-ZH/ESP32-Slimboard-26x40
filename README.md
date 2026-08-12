@@ -6,7 +6,7 @@ Compact ESP32‑WROOM‑32 slim board (26×40 mm) for vertical or horizontal mou
 
 The processor board is made arround the ESPRESSIF ESP32‑WROOM‑32UE with 16 MB of flash (or 32E if no external antenna needed).
 
-USB interface and onboard 3.3V regulator are not provided, an external adapter  [Tools](#-tools) can be used for initial programming. OTA updates can be used afterwards.
+USB interface and onboard 3.3V regulator are not provided, an external adapter (see [Tools](#-tools)) can be used for initial programming. OTA updates can be used afterwards.
 
 The board features a 2×15 pin male connector with 2.0 mm pitch, allowing use on prototyping platforms or production boards.
 
