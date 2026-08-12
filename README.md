@@ -57,7 +57,7 @@ Pins in this table have been assigned to application-specific signals, but all G
 </table>
 
 ## 📐 Hardware design
-Design files are provided [here](hardware/) in Eagle 6 format (xml files) that can easily be imported in KICAD.
+Design and library files are provided [here](hardware/) in Eagle 6 format (xml files) that can easily be imported into KICAD.
 
 ## 🛠 Tools
 |[Uart programming module](https://soldered.com/products/connect-programmer)|[ESPPROG-2 tool](https://docs.espressif.com/projects/esp-dev-kits/en/latest/other/esp-prog-2/user_guide.html)|ZIF programmer|Programming on socket|
