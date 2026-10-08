@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -12043,11 +12043,11 @@ Source: www.silabs.com .. C8051F33x.pdf</description>
 <text x="-12.7" y="33.02" size="1.778" layer="96">&gt;VALUE</text>
 <text x="2.54" y="0" size="1.778" layer="94" rot="R90">ESP32-Mezza30</text>
 <pin name="3V3" x="-15.24" y="25.4" length="short"/>
-<pin name="1W(21)" x="-15.24" y="-10.16" length="short"/>
+<pin name="1W(18)" x="-15.24" y="-10.16" length="short"/>
 <pin name="OUT6(17)" x="20.32" y="-5.08" length="short" rot="R180"/>
 <pin name="RX1(26)" x="-15.24" y="5.08" length="short"/>
 <pin name="LED2(16)" x="20.32" y="-15.24" length="short" rot="R180"/>
-<pin name="REL1(18)" x="20.32" y="10.16" length="short" rot="R180"/>
+<pin name="REL1(21)" x="20.32" y="10.16" length="short" rot="R180"/>
 <pin name="ZC(23)" x="20.32" y="25.4" length="short" rot="R180"/>
 <pin name="PWM(22)" x="20.32" y="22.86" length="short" rot="R180"/>
 <pin name="TX0(1)" x="20.32" y="17.78" length="short" rot="R180"/>
@@ -12059,13 +12059,13 @@ Source: www.silabs.com .. C8051F33x.pdf</description>
 <pin name="IN4(35)" x="-15.24" y="10.16" length="short"/>
 <pin name="IN3(34)" x="-15.24" y="12.7" length="short"/>
 <pin name="RX0(3)" x="20.32" y="15.24" length="short" rot="R180"/>
-<pin name="REL5(25)" x="20.32" y="0" length="short" rot="R180"/>
+<pin name="REL5(19)" x="20.32" y="0" length="short" rot="R180"/>
 <pin name="IN1(36)" x="-15.24" y="17.78" length="short"/>
 <pin name="IN2(39)" x="-15.24" y="15.24" length="short"/>
 <pin name="LED1(15)" x="20.32" y="-12.7" length="short" rot="R180"/>
 <pin name="REL3(32)" x="20.32" y="5.08" length="short" rot="R180"/>
 <pin name="REL4(33)" x="20.32" y="2.54" length="short" rot="R180"/>
-<pin name="REL2(19)" x="20.32" y="7.62" length="short" rot="R180"/>
+<pin name="REL2(25)" x="20.32" y="7.62" length="short" rot="R180"/>
 <pin name="GND" x="-15.24" y="22.86" length="short" direction="pwr"/>
 <pin name="GND1" x="-15.24" y="-22.86" length="short" direction="pwr"/>
 <pin name="D-/IO0" x="-15.24" y="-20.32" length="short"/>
@@ -15579,7 +15579,7 @@ MT45W8MW16 (8Mx16)</description>
 <devices>
 <device name="H" package="ESP32-MEZZA25">
 <connects>
-<connect gate="G$1" pin="1W(21)" pad="18"/>
+<connect gate="G$1" pin="1W(18)" pad="18"/>
 <connect gate="G$1" pin="3V3" pad="2"/>
 <connect gate="G$1" pin="CANRX(4)" pad="23"/>
 <connect gate="G$1" pin="CANTX(5)" pad="25"/>
@@ -15596,11 +15596,11 @@ MT45W8MW16 (8Mx16)</description>
 <connect gate="G$1" pin="OUT6(17)" pad="21"/>
 <connect gate="G$1" pin="OUT7(12)" pad="22"/>
 <connect gate="G$1" pin="PWM(22)" pad="7"/>
-<connect gate="G$1" pin="REL1(18)" pad="13"/>
-<connect gate="G$1" pin="REL2(19)" pad="14"/>
+<connect gate="G$1" pin="REL1(21)" pad="13"/>
+<connect gate="G$1" pin="REL2(25)" pad="14"/>
 <connect gate="G$1" pin="REL3(32)" pad="15"/>
 <connect gate="G$1" pin="REL4(33)" pad="16"/>
-<connect gate="G$1" pin="REL5(25)" pad="20"/>
+<connect gate="G$1" pin="REL5(19)" pad="20"/>
 <connect gate="G$1" pin="RX0(3)" pad="9"/>
 <connect gate="G$1" pin="RX1(26)" pad="10"/>
 <connect gate="G$1" pin="SCL(13)" pad="19"/>
@@ -15617,7 +15617,7 @@ MT45W8MW16 (8Mx16)</description>
 </device>
 <device name="V" package="ESP32-MEZZA25-V">
 <connects>
-<connect gate="G$1" pin="1W(21)" pad="18"/>
+<connect gate="G$1" pin="1W(18)" pad="18"/>
 <connect gate="G$1" pin="3V3" pad="2"/>
 <connect gate="G$1" pin="CANRX(4)" pad="23"/>
 <connect gate="G$1" pin="CANTX(5)" pad="25"/>
@@ -15634,11 +15634,11 @@ MT45W8MW16 (8Mx16)</description>
 <connect gate="G$1" pin="OUT6(17)" pad="21"/>
 <connect gate="G$1" pin="OUT7(12)" pad="22"/>
 <connect gate="G$1" pin="PWM(22)" pad="7"/>
-<connect gate="G$1" pin="REL1(18)" pad="13"/>
-<connect gate="G$1" pin="REL2(19)" pad="14"/>
+<connect gate="G$1" pin="REL1(21)" pad="13"/>
+<connect gate="G$1" pin="REL2(25)" pad="14"/>
 <connect gate="G$1" pin="REL3(32)" pad="15"/>
 <connect gate="G$1" pin="REL4(33)" pad="16"/>
-<connect gate="G$1" pin="REL5(25)" pad="20"/>
+<connect gate="G$1" pin="REL5(19)" pad="20"/>
 <connect gate="G$1" pin="RX0(3)" pad="9"/>
 <connect gate="G$1" pin="RX1(26)" pad="10"/>
 <connect gate="G$1" pin="SCL(13)" pad="19"/>
@@ -15655,7 +15655,7 @@ MT45W8MW16 (8Mx16)</description>
 </device>
 <device name="VR" package="ESP32-MEZZA25-VR">
 <connects>
-<connect gate="G$1" pin="1W(21)" pad="18"/>
+<connect gate="G$1" pin="1W(18)" pad="18"/>
 <connect gate="G$1" pin="3V3" pad="2"/>
 <connect gate="G$1" pin="CANRX(4)" pad="23"/>
 <connect gate="G$1" pin="CANTX(5)" pad="25"/>
@@ -15672,11 +15672,11 @@ MT45W8MW16 (8Mx16)</description>
 <connect gate="G$1" pin="OUT6(17)" pad="21"/>
 <connect gate="G$1" pin="OUT7(12)" pad="22"/>
 <connect gate="G$1" pin="PWM(22)" pad="7"/>
-<connect gate="G$1" pin="REL1(18)" pad="13"/>
-<connect gate="G$1" pin="REL2(19)" pad="14"/>
+<connect gate="G$1" pin="REL1(21)" pad="13"/>
+<connect gate="G$1" pin="REL2(25)" pad="14"/>
 <connect gate="G$1" pin="REL3(32)" pad="15"/>
 <connect gate="G$1" pin="REL4(33)" pad="16"/>
-<connect gate="G$1" pin="REL5(25)" pad="20"/>
+<connect gate="G$1" pin="REL5(19)" pad="20"/>
 <connect gate="G$1" pin="RX0(3)" pad="9"/>
 <connect gate="G$1" pin="RX1(26)" pad="10"/>
 <connect gate="G$1" pin="SCL(13)" pad="19"/>
@@ -15693,7 +15693,7 @@ MT45W8MW16 (8Mx16)</description>
 </device>
 <device name="VR1" package="ESP32-MEZZA25-VR1">
 <connects>
-<connect gate="G$1" pin="1W(21)" pad="18"/>
+<connect gate="G$1" pin="1W(18)" pad="18"/>
 <connect gate="G$1" pin="3V3" pad="2"/>
 <connect gate="G$1" pin="CANRX(4)" pad="23"/>
 <connect gate="G$1" pin="CANTX(5)" pad="25"/>
@@ -15710,11 +15710,11 @@ MT45W8MW16 (8Mx16)</description>
 <connect gate="G$1" pin="OUT6(17)" pad="21"/>
 <connect gate="G$1" pin="OUT7(12)" pad="22"/>
 <connect gate="G$1" pin="PWM(22)" pad="7"/>
-<connect gate="G$1" pin="REL1(18)" pad="13"/>
-<connect gate="G$1" pin="REL2(19)" pad="14"/>
+<connect gate="G$1" pin="REL1(21)" pad="13"/>
+<connect gate="G$1" pin="REL2(25)" pad="14"/>
 <connect gate="G$1" pin="REL3(32)" pad="15"/>
 <connect gate="G$1" pin="REL4(33)" pad="16"/>
-<connect gate="G$1" pin="REL5(25)" pad="20"/>
+<connect gate="G$1" pin="REL5(19)" pad="20"/>
 <connect gate="G$1" pin="RX0(3)" pad="9"/>
 <connect gate="G$1" pin="RX1(26)" pad="10"/>
 <connect gate="G$1" pin="SCL(13)" pad="19"/>
@@ -15731,7 +15731,7 @@ MT45W8MW16 (8Mx16)</description>
 </device>
 <device name="R" package="ESP32-MEZZA25-R">
 <connects>
-<connect gate="G$1" pin="1W(21)" pad="18"/>
+<connect gate="G$1" pin="1W(18)" pad="18"/>
 <connect gate="G$1" pin="3V3" pad="2"/>
 <connect gate="G$1" pin="CANRX(4)" pad="23"/>
 <connect gate="G$1" pin="CANTX(5)" pad="25"/>
@@ -15748,11 +15748,11 @@ MT45W8MW16 (8Mx16)</description>
 <connect gate="G$1" pin="OUT6(17)" pad="21"/>
 <connect gate="G$1" pin="OUT7(12)" pad="22"/>
 <connect gate="G$1" pin="PWM(22)" pad="7"/>
-<connect gate="G$1" pin="REL1(18)" pad="13"/>
-<connect gate="G$1" pin="REL2(19)" pad="14"/>
+<connect gate="G$1" pin="REL1(21)" pad="13"/>
+<connect gate="G$1" pin="REL2(25)" pad="14"/>
 <connect gate="G$1" pin="REL3(32)" pad="15"/>
 <connect gate="G$1" pin="REL4(33)" pad="16"/>
-<connect gate="G$1" pin="REL5(25)" pad="20"/>
+<connect gate="G$1" pin="REL5(19)" pad="20"/>
 <connect gate="G$1" pin="RX0(3)" pad="9"/>
 <connect gate="G$1" pin="RX1(26)" pad="10"/>
 <connect gate="G$1" pin="SCL(13)" pad="19"/>
@@ -15857,7 +15857,7 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <devices>
 <device name="N" package="ESP32-MEZZA25-1">
 <connects>
-<connect gate="G$1" pin="1W(21)" pad="18"/>
+<connect gate="G$1" pin="1W(18)" pad="18"/>
 <connect gate="G$1" pin="3V3" pad="2"/>
 <connect gate="G$1" pin="CANRX(4)" pad="23"/>
 <connect gate="G$1" pin="CANTX(5)" pad="25"/>
@@ -15874,11 +15874,11 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <connect gate="G$1" pin="OUT6(17)" pad="21"/>
 <connect gate="G$1" pin="OUT7(12)" pad="22"/>
 <connect gate="G$1" pin="PWM(22)" pad="7"/>
-<connect gate="G$1" pin="REL1(18)" pad="13"/>
-<connect gate="G$1" pin="REL2(19)" pad="14"/>
+<connect gate="G$1" pin="REL1(21)" pad="13"/>
+<connect gate="G$1" pin="REL2(25)" pad="14"/>
 <connect gate="G$1" pin="REL3(32)" pad="15"/>
 <connect gate="G$1" pin="REL4(33)" pad="16"/>
-<connect gate="G$1" pin="REL5(25)" pad="20"/>
+<connect gate="G$1" pin="REL5(19)" pad="20"/>
 <connect gate="G$1" pin="RX0(3)" pad="9"/>
 <connect gate="G$1" pin="RX1(26)" pad="10"/>
 <connect gate="G$1" pin="SCL(13)" pad="19"/>
@@ -15894,7 +15894,7 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 </device>
 <device name="R" package="ESP32-MEZZA25-1R">
 <connects>
-<connect gate="G$1" pin="1W(21)" pad="18"/>
+<connect gate="G$1" pin="1W(18)" pad="18"/>
 <connect gate="G$1" pin="3V3" pad="2"/>
 <connect gate="G$1" pin="CANRX(4)" pad="23"/>
 <connect gate="G$1" pin="CANTX(5)" pad="25"/>
@@ -15911,11 +15911,11 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <connect gate="G$1" pin="OUT6(17)" pad="21"/>
 <connect gate="G$1" pin="OUT7(12)" pad="22"/>
 <connect gate="G$1" pin="PWM(22)" pad="7"/>
-<connect gate="G$1" pin="REL1(18)" pad="13"/>
-<connect gate="G$1" pin="REL2(19)" pad="14"/>
+<connect gate="G$1" pin="REL1(21)" pad="13"/>
+<connect gate="G$1" pin="REL2(25)" pad="14"/>
 <connect gate="G$1" pin="REL3(32)" pad="15"/>
 <connect gate="G$1" pin="REL4(33)" pad="16"/>
-<connect gate="G$1" pin="REL5(25)" pad="20"/>
+<connect gate="G$1" pin="REL5(19)" pad="20"/>
 <connect gate="G$1" pin="RX0(3)" pad="9"/>
 <connect gate="G$1" pin="RX1(26)" pad="10"/>
 <connect gate="G$1" pin="SCL(13)" pad="19"/>
@@ -15931,7 +15931,7 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 </device>
 <device name="2" package="ESP32-MEZZA25-VR2">
 <connects>
-<connect gate="G$1" pin="1W(21)" pad="18"/>
+<connect gate="G$1" pin="1W(18)" pad="18"/>
 <connect gate="G$1" pin="3V3" pad="2"/>
 <connect gate="G$1" pin="CANRX(4)" pad="23"/>
 <connect gate="G$1" pin="CANTX(5)" pad="25"/>
@@ -15948,11 +15948,11 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <connect gate="G$1" pin="OUT6(17)" pad="21"/>
 <connect gate="G$1" pin="OUT7(12)" pad="22"/>
 <connect gate="G$1" pin="PWM(22)" pad="7"/>
-<connect gate="G$1" pin="REL1(18)" pad="13"/>
-<connect gate="G$1" pin="REL2(19)" pad="14"/>
+<connect gate="G$1" pin="REL1(21)" pad="13"/>
+<connect gate="G$1" pin="REL2(25)" pad="14"/>
 <connect gate="G$1" pin="REL3(32)" pad="15"/>
 <connect gate="G$1" pin="REL4(33)" pad="16"/>
-<connect gate="G$1" pin="REL5(25)" pad="20"/>
+<connect gate="G$1" pin="REL5(19)" pad="20"/>
 <connect gate="G$1" pin="RX0(3)" pad="9"/>
 <connect gate="G$1" pin="RX1(26)" pad="10"/>
 <connect gate="G$1" pin="SCL(13)" pad="19"/>
@@ -15968,7 +15968,7 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 </device>
 <device name="3" package="ESP32-MEZZA25-VR3">
 <connects>
-<connect gate="G$1" pin="1W(21)" pad="18"/>
+<connect gate="G$1" pin="1W(18)" pad="18"/>
 <connect gate="G$1" pin="3V3" pad="2"/>
 <connect gate="G$1" pin="CANRX(4)" pad="23"/>
 <connect gate="G$1" pin="CANTX(5)" pad="25"/>
@@ -15985,11 +15985,11 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <connect gate="G$1" pin="OUT6(17)" pad="21"/>
 <connect gate="G$1" pin="OUT7(12)" pad="22"/>
 <connect gate="G$1" pin="PWM(22)" pad="7"/>
-<connect gate="G$1" pin="REL1(18)" pad="13"/>
-<connect gate="G$1" pin="REL2(19)" pad="14"/>
+<connect gate="G$1" pin="REL1(21)" pad="13"/>
+<connect gate="G$1" pin="REL2(25)" pad="14"/>
 <connect gate="G$1" pin="REL3(32)" pad="15"/>
 <connect gate="G$1" pin="REL4(33)" pad="16"/>
-<connect gate="G$1" pin="REL5(25)" pad="20"/>
+<connect gate="G$1" pin="REL5(19)" pad="20"/>
 <connect gate="G$1" pin="RX0(3)" pad="9"/>
 <connect gate="G$1" pin="RX1(26)" pad="10"/>
 <connect gate="G$1" pin="SCL(13)" pad="19"/>
@@ -16005,7 +16005,7 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 </device>
 <device name="3S" package="ESP32-MEZZA25-VR3-SMD">
 <connects>
-<connect gate="G$1" pin="1W(21)" pad="18"/>
+<connect gate="G$1" pin="1W(18)" pad="18"/>
 <connect gate="G$1" pin="3V3" pad="2"/>
 <connect gate="G$1" pin="CANRX(4)" pad="23"/>
 <connect gate="G$1" pin="CANTX(5)" pad="25"/>
@@ -16022,11 +16022,11 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <connect gate="G$1" pin="OUT6(17)" pad="21"/>
 <connect gate="G$1" pin="OUT7(12)" pad="22"/>
 <connect gate="G$1" pin="PWM(22)" pad="7"/>
-<connect gate="G$1" pin="REL1(18)" pad="13"/>
-<connect gate="G$1" pin="REL2(19)" pad="14"/>
+<connect gate="G$1" pin="REL1(21)" pad="13"/>
+<connect gate="G$1" pin="REL2(25)" pad="14"/>
 <connect gate="G$1" pin="REL3(32)" pad="15"/>
 <connect gate="G$1" pin="REL4(33)" pad="16"/>
-<connect gate="G$1" pin="REL5(25)" pad="20"/>
+<connect gate="G$1" pin="REL5(19)" pad="20"/>
 <connect gate="G$1" pin="RX0(3)" pad="9"/>
 <connect gate="G$1" pin="RX1(26)" pad="10"/>
 <connect gate="G$1" pin="SCL(13)" pad="19"/>
@@ -16042,7 +16042,7 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 </device>
 <device name="RNG" package="ESP32-MEZZA25-R-NOGND">
 <connects>
-<connect gate="G$1" pin="1W(21)" pad="18"/>
+<connect gate="G$1" pin="1W(18)" pad="18"/>
 <connect gate="G$1" pin="3V3" pad="2"/>
 <connect gate="G$1" pin="CANRX(4)" pad="23"/>
 <connect gate="G$1" pin="CANTX(5)" pad="25"/>
@@ -16059,11 +16059,11 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <connect gate="G$1" pin="OUT6(17)" pad="21"/>
 <connect gate="G$1" pin="OUT7(12)" pad="22"/>
 <connect gate="G$1" pin="PWM(22)" pad="7"/>
-<connect gate="G$1" pin="REL1(18)" pad="13"/>
-<connect gate="G$1" pin="REL2(19)" pad="14"/>
+<connect gate="G$1" pin="REL1(21)" pad="13"/>
+<connect gate="G$1" pin="REL2(25)" pad="14"/>
 <connect gate="G$1" pin="REL3(32)" pad="15"/>
 <connect gate="G$1" pin="REL4(33)" pad="16"/>
-<connect gate="G$1" pin="REL5(25)" pad="20"/>
+<connect gate="G$1" pin="REL5(19)" pad="20"/>
 <connect gate="G$1" pin="RX0(3)" pad="9"/>
 <connect gate="G$1" pin="RX1(26)" pad="10"/>
 <connect gate="G$1" pin="SCL(13)" pad="19"/>
@@ -16079,7 +16079,7 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 </device>
 <device name="4S" package="ESP32-MEZZA25-VR4-SMD">
 <connects>
-<connect gate="G$1" pin="1W(21)" pad="18"/>
+<connect gate="G$1" pin="1W(18)" pad="18"/>
 <connect gate="G$1" pin="3V3" pad="2"/>
 <connect gate="G$1" pin="CANRX(4)" pad="23"/>
 <connect gate="G$1" pin="CANTX(5)" pad="25"/>
@@ -16096,11 +16096,11 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <connect gate="G$1" pin="OUT6(17)" pad="21"/>
 <connect gate="G$1" pin="OUT7(12)" pad="22"/>
 <connect gate="G$1" pin="PWM(22)" pad="7"/>
-<connect gate="G$1" pin="REL1(18)" pad="13"/>
-<connect gate="G$1" pin="REL2(19)" pad="14"/>
+<connect gate="G$1" pin="REL1(21)" pad="13"/>
+<connect gate="G$1" pin="REL2(25)" pad="14"/>
 <connect gate="G$1" pin="REL3(32)" pad="15"/>
 <connect gate="G$1" pin="REL4(33)" pad="16"/>
-<connect gate="G$1" pin="REL5(25)" pad="20"/>
+<connect gate="G$1" pin="REL5(19)" pad="20"/>
 <connect gate="G$1" pin="RX0(3)" pad="9"/>
 <connect gate="G$1" pin="RX1(26)" pad="10"/>
 <connect gate="G$1" pin="SCL(13)" pad="19"/>
